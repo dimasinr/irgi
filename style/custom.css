@@ -1,0 +1,85 @@
+a img:hover {
+    opacity: 0.6;
+}
+.image.active img {
+  /* Gaya untuk gambar ikon saat sidebar aktif */
+  /* Contoh: mengubah warna gambar ikon saat aktif */
+  filter: brightness(4.5); /* Misalnya, mengubah kecerahan gambar */
+}
+.sidebar-link {
+      display: block;
+      /* padding: 10px; */
+      text-decoration: none;
+      color: #333;
+  }
+
+  .sidebar-link.active {
+      color:white;
+      background-color: rgb(59 130 246);
+  }
+  .dropdown-link.active {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+  }
+  .dropdown.active {
+    color:white;
+    background-color: rgb(59 130 246);
+    /* margin-left: 18px; */
+  }
+  .img-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.img-link.active {
+  color:white;
+  background-color: rgb(59 130 246);
+  }
+
+  a:hover {
+  color: rgb(135, 142, 217); /* Mengubah warna teks saat tautan dihover */
+  cursor: pointer; /* Mengubah ikon kursor menjadi tangan (seperti tautan) saat dihover */
+  }
+  .img-pipk{
+    width: 23px;
+    
+    margin-left: 5px;
+  }
+  .img-telak{
+    width: 23px;
+    
+    margin-left: 0px;
+  }
+
+  .hidden-scrollbar {
+    background-color:black;
+    border:2px solid #666;
+    color:white;  
+    overflow:hidden;
+    text-align:justify;    
+  }
+  .hidden-scrollbar .inner {
+    height:200px;
+    overflow:auto;
+    margin:15px -300px 15px 15px;
+    padding-right:300px; /* Samakan dengan besar margin negatif */
+  }
+
+  .scroller {
+ 
+    overflow-y: scroll; /* Add the ability to scroll */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scroller::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scroller {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  
+  

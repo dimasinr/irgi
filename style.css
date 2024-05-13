@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* CSS untuk gaya teks */
+.birthday-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.birthday-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.birthday-message {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    animation: fadeIn1 2s ease-in; /* Animasi ease-in selama 2 detik */
+}
+
+.birthday-message3 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    animation: fadeIn3 2s ease-in; /* Animasi ease-in selama 2 detik */
+}
+
+@keyframes fadeIn1 {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Efek sedikit translasi ke atas */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50);
+    }
+}
+
+@keyframes fadeIn2 {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Efek sedikit translasi ke atas */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50);
+    }
+}
+
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px); /* Efek sedikit translasi ke atas */
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-50);
+    }
+    100%{
+        opacity: 1;
+    }
+}
